@@ -6,7 +6,12 @@ const student = {
     bestFriend:{
         name:'Kodo Mia',
         major:'Bioilogy'    
-    }
+    },
+
+   takeExam: function(){
+       console.log(this.name,'taking Exam')
+   }
 
 
 }
+student.takeExam();
